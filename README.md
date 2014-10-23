@@ -7,7 +7,7 @@ Watch a directory for changes and execute a script.
 
 Pop a symbolic link in your path:
 
-ln -s /path/to/logger.js /usr/local/bin/logger
+    ln -s /path/to/logger.js /usr/local/bin/logger
 
 
 #Usage:
