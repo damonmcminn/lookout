@@ -20,4 +20,4 @@ Pop a symbolic link in your path:
     -s, --script <s>       Script to execute e.g. path_to_enlightenment.rb
     -i, --interpreter <i>  Interpreter to use
 
-    e.g. logger -w /path/to/file/or/directory -s /path/to/enlightenment.rb -i pry
+    e.g. logger -w /path/to/file/or/directory -s /path/to/enlightenment.rb -i ruby

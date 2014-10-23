@@ -11,12 +11,17 @@ program
   .parse(process.argv);
 
 var command = program.interpreter + ' ' + program.script;
-var dashes = new Array(79).join('-');
+var dashes = new Array(80).join('-');
 
 function onChange(file, curr, prev) {
-  exec(command, function(err, stdout, stderr) {
-    console.log(stdout);
-    console.log(dashes);
+  exec(command, {timeout: 300}, function(err, stdout, stderr) {
+    if (stderr) {
+      console.log(stderr);
+      console.log(dashes);
+    } else {
+      console.log(stdout);
+      console.log(dashes);
+    }
   });
 }
 
