@@ -1,0 +1,23 @@
+{
+  "name": "lookout",
+  "version": "0.0.1",
+  "description": "Do things when a directory/file changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damonmcminn/lookout.git"
+  },
+  "author": "Damon McMinn",
+  "license": "CC0 1.0 Universal",
+  "bugs": {
+    "url": "https://github.com/damonmcminn/lookout/issues"
+  },
+  "homepage": "https://github.com/damonmcminn/lookout",
+  "dependencies": {
+    "commander": "^2.4.0",
+    "watch": "^0.12.0"
+  }
+}

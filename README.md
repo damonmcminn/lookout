@@ -1,6 +1,17 @@
 lookout
 =======
 
-Watch a script/directory and do something when it changes.
+Learning Ruby by koans. Bored of manually executing path_to_enlightenment.rb.
 
-For Ruby Koans, but can be used for anything of similar nature. Execute path to enlightenment when any of the scripts change.
+Watch a directory for changes and execute a script.
+
+Pop a symbolic link in your path:
+
+ln -s /path/to/logger.js /usr/local/bin/logger
+
+
+Usage:
+
+logger -w /path/to/file/or/directory -s /path/to/enlightenment.rb -i {repl}
+
+## I use pry
